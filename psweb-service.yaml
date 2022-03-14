@@ -4,7 +4,8 @@ metadata:
         name: psweb
 spec:
     selector:
-            env: production 
+            env: production
+            version: v1 
             projet: devops-training
     type: NodePort
     ports:
